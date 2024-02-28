@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right,rgb(42, 153, 8),rgb(17,54,71));
+}
+
+.container{
+    width: 200px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 50%; 
+}
+ fieldset{
+    border: 2px solid black;
+ }
+
+ legend{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+ }
+
+label{
+    font-weight: bold;
+    font-size: 20px;
+}
+input{
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+button{
+    width: 180px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: greenyellow;
+    font-weight: bold;
+    border: none;
+}
+
+
